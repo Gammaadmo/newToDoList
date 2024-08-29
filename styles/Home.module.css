@@ -1,0 +1,153 @@
+/* styles/Home.module.css */
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 30px;
+  font-family: 'Roboto', sans-serif;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+}
+
+.heading {
+  text-align: center;
+  color: #f4f4f4;
+  margin-bottom: 25px;
+  font-size: 1.8em;
+}
+
+.inputContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.input {
+  padding: 12px;
+  font-size: 18px;
+  border: 2px solid #555;
+  border-radius: 6px;
+  margin-right: 10px;
+  width: 100%;
+  max-width: 400px;
+  background-color: #333;
+  color: #e0e0e0;
+}
+
+.addButton,
+.editButton,
+.deleteButton,
+.saveButton,
+.completeButton {
+  padding: 12px 18px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.addButton {
+  background-color: #0070f3;
+  color: white;
+}
+
+.addButton:hover {
+  background-color: #005bb5;
+  transform: scale(1.05);
+}
+
+.editButton {
+  background-color: #f7c331;
+  color: black;
+}
+
+.editButton:hover {
+  background-color: #d5a720;
+  transform: scale(1.05);
+}
+
+.deleteButton {
+  background-color: #e00;
+  color: white;
+}
+
+.deleteButton:hover {
+  background-color: #c00;
+  transform: scale(1.05);
+}
+
+.saveButton {
+  background-color: #4caf50;
+  color: white;
+}
+
+.saveButton:hover {
+  background-color: #388e3c;
+  transform: scale(1.05);
+}
+
+.completeButton {
+  background-color: #0070f3;
+  color: white;
+}
+
+.completeButton:hover {
+  background-color: #005bb5;
+  transform: scale(1.05);
+}
+
+.filters {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.select {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #555;
+  border-radius: 6px;
+  background-color: #444;
+  color: #e0e0e0;
+}
+
+.todoList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todoItem {
+  margin: 12px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  border: 2px solid #555;
+  border-radius: 6px;
+  background-color: #2e2e2e;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.priority {
+  font-weight: bold;
+}
+
+.priority-High {
+  color: red;
+}
+
+.priority-Medium {
+  color: orange;
+}
+
+.priority-Low {
+  color: green;
+}
